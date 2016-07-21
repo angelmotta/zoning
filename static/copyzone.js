@@ -4,8 +4,8 @@ var copyTextareaBtns = document.getElementsByTagName('button');
 
 for(i=0; i<copyTextareaBtns.length; i++) {
 copyTextareaBtns[i].addEventListener('click', function(event) {
-    var copyTextareas = document.getElementsByTagName('textarea');
-    copyTextareas[i].select();
+   
+    $(this).parent().prev().find("textarea").select();
 
     try {
         var successful = document.execCommand('copy');
