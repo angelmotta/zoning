@@ -1,9 +1,11 @@
 $(document).ready(function(){
-var copyTextareaBtn = document.querySelector('.js-textareacopybtn');
+var copyTextareaBtns = document.getElementsByTagName('button');
+var copyTextareas = document.getElementsByTagName('textarea');
 
-copyTextareaBtn.addEventListener('click', function(event) {
-    var copyTextarea = document.querySelector('.js-copytextarea');
-    copyTextarea.select();
+for(i=0; i<copyTextareaBtns.length; i++) {
+copyTextareaBtns[i].addEventListener('click', function(event) {
+    
+    copyTextareas[i].select();
 
     try {
         var successful = document.execCommand('copy');
@@ -13,5 +15,6 @@ copyTextareaBtn.addEventListener('click', function(event) {
     catch (err) {
         console.log('Oops, unable to copy');
     }
-});    
+});
+}
 });
