@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Zoning Brocade!</title>
+	<link rel="stylesheet" href="/static/style.css" />
+	<script type="text/javascript" src="/static/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="/static/copyzone.js"></script>
+</head>
+<body>
+	<h1 class="title">Zones Ready, Save Time & Be Happy!</h1>
+	<h2> Zone {{lpar_alias1[0:8]}} Fabric1</h2>
+	<p>
+	<textarea class="js-copytextarea">
+	alicreate "{{ lpar_alias1 }}","{{ wwn1 }}"
+	zonecreate "{{ zone1 }}","{{ lpar_alias1 }};{{vsp_port1}}"
+	cfgadd “{{ fabric1 }}”,”{{ zone1 }}”
+	cfgenable “{{ fabric1 }}”
+	yes
+	cfgsave
+	yes
+	</textarea>
+	</p>
+	<p>
+  	<button class="js-textareacopybtn">Copy Zone</button>
+	</p>
+	<h2> Zone {{lpar_alias2[0:8]}} Fabric2</h2>
+	<p>
+	<textarea class="js-copytextarea">
+	alicreate "{{ lpar_alias2 }}","{{ wwn2 }}"
+	zonecreate "{{ zone2 }}","{{ lpar_alias2 }};{{vsp_port2}}"
+	cfgadd “{{ fabric2 }}”,”{{ zone2 }}”
+	cfgenable “{{ fabric2 }}”
+	yes
+	cfgsave
+	yes
+	</textarea>
+	</p>
+	<p>
+  	<button class="js-textareacopybtn2">Copy Zone</button>
+	</p>
+	<h2> Zone {{lpar_alias3[0:8]}} Fabric1</h2>
+	<p>
+	alicreate "{{ lpar_alias3 }}","{{ wwn3 }}"<br>
+	zonecreate "{{ zone3 }}","{{ lpar_alias3 }};{{vsp_port3}}"<br>
+	cfgadd “{{ fabric1 }}”,”{{ zone3 }}”<br>
+	cfgenable “{{ fabric1 }}”<br>
+	yes<br>
+	cfgsave<br>
+	yes
+	</p>
+	<h2> Zone {{lpar_alias4[0:8]}} Fabric2</h2>
+	<p>
+	alicreate "{{ lpar_alias4 }}","{{ wwn4 }}"<br>
+	zonecreate "{{ zone4 }}","{{ lpar_alias4 }};{{vsp_port4}}"<br>
+	cfgadd “{{ fabric2 }}”,”{{ zone4 }}”<br>
+	cfgenable “{{ fabric2 }}”<br>
+	yes<br>
+	cfgsave<br>
+	yes
+	</p>
+	<br>
+</body>
+</html>
