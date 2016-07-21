@@ -1,0 +1,38 @@
+table {
+    width: 40%;
+    border-collapse: collapse;
+    table-layout:fixed;
+    font-family: sans-serif; 
+}
+
+td {
+    padding-left: 10px;
+}
+
+th {
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: left;
+}
+
+table, td, th {
+    border: 0px solid black;
+}
+
+.firstcol {
+	width: 140px;
+}
+
+.title {
+	padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background-color: #33BEBE;
+    font-family: sans-serif;
+    color: white;
+}
+
+.js-copytextarea {
+    width: 550px;
+    height: 100px;
+}
