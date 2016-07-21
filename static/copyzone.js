@@ -1,10 +1,10 @@
 $(document).ready(function(){
 var copyTextareaBtns = document.getElementsByTagName('button');
-var copyTextareas = document.getElementsByTagName('textarea');
+
 
 for(i=0; i<copyTextareaBtns.length; i++) {
 copyTextareaBtns[i].addEventListener('click', function(event) {
-    
+    var copyTextareas = document.getElementsByTagName('textarea');
     copyTextareas[i].select();
 
     try {
