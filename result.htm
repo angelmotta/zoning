@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="/static/style.css" />
+	<title>Zoning Brocade!</title>
+</head>
+<body>
+<h1 class="title">Generate code for your zoning</h1>
+
+<table>
+	<form method="POST">
+		<div style="display:none;"><input id="csrf_token" name="csrf_token" type="hidden" value="1469084472##98d65c0959f304b4cfd43207f41bcbacda05f2af"></div>
+		<tr> 
+			<th class="firstcol"><label for="host">Hostname Lpar</label> </th>
+		</tr>
+		<tr> 
+			<td class="firstcol"><input id="host" name="host" type="text" value=""> </td>
+			<td> </td>
+		</tr>
+		<tr> 
+			<th class="firstcol"><label for="vios">VIOS</label> </th>
+		</tr>
+		<tr> 
+			<td class="firstcol"><select id="vios" name="vios"><option value="viochp11_12">VIOCHP11_12</option><option value="violmp11_12">VIOLMP11_12</option><option value="viochp08_09">VIOCHP08_09</option></select> </td>
+		</tr>
+		<tr> 
+			<th class="firstcol"><label for="wwn">Enter your wwns</label> </th>
+		</tr>
+		<tr> 
+			<td class="firstcol"><textarea cols="16" id="wwn" maxlength="56" name="wwn" rows="4"></textarea> </td>
+			<td>
+		</tr>
+		<tr>
+			<td class="firstcol"><input id="submit" name="submit" type="submit" value="Zoning"> </td>
+		</tr>
+	</form>
+</table>
+</body>
+</html>
