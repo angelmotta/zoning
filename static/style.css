@@ -2,7 +2,7 @@ table {
     width: 40%;
     border-collapse: collapse;
     table-layout:fixed;
-    font-family: sans-serif; 
+    font-family: 'Lato', sans-serif; 
 }
 
 td {
@@ -19,20 +19,44 @@ table, td, th {
     border: 0px solid black;
 }
 
-.firstcol {
+.form {
 	width: 140px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .title {
-	padding-top: 30px;
+	padding-top: 20px;
     padding-left: 10px;
     padding-bottom: 5px;
-    background-color: #33BEBE;
-    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.8);
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
     color: white;
+    margin-top: 10px;
 }
 
 .textzone {
-    width: 560px;
+    width: 660px;
     height: 105px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.others {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;  
+    font-size: 14px; 
+}
+
+.js-textareacopybtn {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;  
+    font-size: 11px;     
 }

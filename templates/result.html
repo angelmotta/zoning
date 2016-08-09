@@ -8,8 +8,8 @@
 	<script type="text/javascript" src="/static/copyzone.js"></script>
 </head>
 <body>
-<h1 class="title">Zones Ready! Save Time &amp; Be Happy =)</h1>
-	<h2> Zone {{lpar_alias1[0:8]}} Fabric1</h2>
+<h1 class="title">Save Time &amp; Be Happy =)</h1>
+	<h2 class="subtitle"> Zone {{lpar_alias1[0:8]}} Fabric1</h2>
 		<p>
 			<textarea class="textzone">alicreate "{{ lpar_alias1 }}","{{ wwn1 }}"
 zonecreate "{{ zone1 }}","{{ lpar_alias1 }};{{vsp_port1}}"
@@ -24,7 +24,7 @@ yes
  			<button class="js-textareacopybtn">Copy Zone</button>
 		</p>
 	
-	<h2> Zone {{lpar_alias3[0:8]}} Fabric1</h2>
+	<h2 class="subtitle"> Zone {{lpar_alias3[0:8]}} Fabric1</h2>
 		<p>
 			<textarea class="textzone">alicreate "{{ lpar_alias3 }}","{{ wwn3 }}"
 zonecreate "{{ zone3 }}","{{ lpar_alias3 }};{{vsp_port3}}"
@@ -39,7 +39,7 @@ yes
 	  		<button class="js-textareacopybtn">Copy Zone</button>
 		</p>
 	
-	<h2> Zone {{lpar_alias2[0:8]}} Fabric2</h2>
+	<h2 class="subtitle"> Zone {{lpar_alias2[0:8]}} Fabric2</h2>
 		<p>
 			<textarea class="textzone">alicreate "{{ lpar_alias2 }}","{{ wwn2 }}"
 zonecreate "{{ zone2 }}","{{ lpar_alias2 }};{{vsp_port2}}"
@@ -54,7 +54,7 @@ yes
 	  		<button class="js-textareacopybtn2">Copy Zone</button>
 		</p>
 
-	<h2> Zone {{lpar_alias4[0:8]}} Fabric2</h2>
+	<h2 class="subtitle"> Zone {{lpar_alias4[0:8]}} Fabric2</h2>
 		<p>
 			<textarea class="textzone">alicreate "{{ lpar_alias4 }}","{{ wwn4 }}"
 zonecreate "{{ zone4 }}","{{ lpar_alias4 }};{{vsp_port4}}"
@@ -68,7 +68,7 @@ yes
 		<p>
 	  		<button class="js-textareacopybtn">Copy Zone</button>
 		</p>
-<p>Click <a href="{{ url_for('index') }}">here</a> to do more zones.</p>
+<p class="others">Click <a href="{{ url_for('index') }}">here</a> to do more zones.</p>
 <br>
 </body>
 </html>

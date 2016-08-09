@@ -6,37 +6,37 @@
 	<title>Zoning Brocade!</title>
 </head>
 <body>
-<h1 class="title">Generate code for your zoning</h1>
+<h1 class="title">Generate your zoning</h1>
 
 <table>
 	<form method="POST">
 		{{form.hidden_tag()}}
 		<tr> 
-			<th class="firstcol">{{ form.host.label }} </th>
+			<th class="form">{{ form.host.label }} </th>
 		</tr>
 		<tr> 
-			<td class="firstcol">{{ form.host }} </td>
+			<td class="form">{{ form.host }} </td>
 			<td>{% for message in form.host.errors %}
     				{{ message }}
     			{% endfor %} </td>
 		</tr>
 		<tr> 
-			<th class="firstcol">{{ form.vios.label }} </th>
+			<th class="form">{{ form.vios.label }} </th>
 		</tr>
 		<tr> 
-			<td class="firstcol">{{ form.vios }} </td>
+			<td class="form">{{ form.vios }} </td>
 		</tr>
 		<tr> 
-			<th class="firstcol">{{ form.wwn.label }} </th>
+			<th class="form">{{ form.wwn.label }} </th>
 		</tr>
 		<tr> 
-			<td class="firstcol">{{ form.wwn(cols='16', rows='4') }} </td>
+			<td class="form">{{ form.wwn(cols='16', rows='4') }} </td>
 			<td>{% for message in form.wwn.errors %}
     				{{ message }}
     			{% endfor %}
 		</tr>
 		<tr>
-			<td class="firstcol">{{ form.submit }} </td>
+			<td class="form">{{ form.submit }} </td>
 		</tr>
 	</form>
 </table>
