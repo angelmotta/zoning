@@ -30,7 +30,7 @@
 			<th class="firstcol">{{ form.wwn.label }} </th>
 		</tr>
 		<tr> 
-			<td class="firstcol">{{ form.wwn(cols='16', rows='4', maxlength='56') }} </td>
+			<td class="firstcol">{{ form.wwn(cols='16', rows='4') }} </td>
 			<td>{% for message in form.wwn.errors %}
     				{{ message }}
     			{% endfor %}
