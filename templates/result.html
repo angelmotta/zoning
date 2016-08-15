@@ -14,9 +14,9 @@
 			<textarea class="textzone">alicreate "{{ lpar_alias1 }}","{{ wwn1 }}"
 zonecreate "{{ zone1 }}","{{ lpar_alias1 }};{{vsp_port1}}"
 cfgadd "{{ fabric1 }}","{{ zone1 }}"
-cfgenable "{{ fabric1 }}"
-yes
 cfgsave
+yes
+cfgenable "{{ fabric1 }}"
 yes
 </textarea>
 		</p>
@@ -29,9 +29,9 @@ yes
 			<textarea class="textzone">alicreate "{{ lpar_alias3 }}","{{ wwn3 }}"
 zonecreate "{{ zone3 }}","{{ lpar_alias3 }};{{vsp_port3}}"
 cfgadd "{{ fabric1 }}","{{ zone3 }}"
-cfgenable "{{ fabric1 }}"
-yes
 cfgsave
+yes
+cfgenable "{{ fabric1 }}"
 yes
 </textarea>
 		</p>
@@ -44,9 +44,9 @@ yes
 			<textarea class="textzone">alicreate "{{ lpar_alias2 }}","{{ wwn2 }}"
 zonecreate "{{ zone2 }}","{{ lpar_alias2 }};{{vsp_port2}}"
 cfgadd "{{ fabric2 }}","{{ zone2 }}"
-cfgenable "{{ fabric2 }}"
-yes
 cfgsave
+yes
+cfgenable "{{ fabric2 }}"
 yes
 </textarea>
 		</p>
@@ -59,9 +59,9 @@ yes
 			<textarea class="textzone">alicreate "{{ lpar_alias4 }}","{{ wwn4 }}"
 zonecreate "{{ zone4 }}","{{ lpar_alias4 }};{{vsp_port4}}"
 cfgadd "{{ fabric2 }}","{{ zone4 }}"
-cfgenable "{{ fabric2 }}"
-yes
 cfgsave
+yes
+cfgenable "{{ fabric2 }}"
 yes
 </textarea>
 		</p>
