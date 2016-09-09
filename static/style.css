@@ -1,28 +1,57 @@
-table {
+.title {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(0,0,0,0.8);
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+
+.menutable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.menu {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(0,0,0,0.8);
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 100%;
+    color: white;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.tableform {
     width: 40%;
     border-collapse: collapse;
     table-layout:fixed;
     font-family: 'Lato', sans-serif; 
+    text-align: left;
 }
 
-td {
-    padding-left: 10px;
+.formhead {
+    padding-top: 15px;
 }
 
-th {
-	padding-left: 10px;
-	padding-top: 10px;
-	text-align: left;
-}
 
-table, td, th {
-    border: 0px solid black;
-}
-
-.form {
+.form, .formhead {
 	width: 140px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    padding-left: 10px;
+    padding-bottom: 0px;
 }
 
 .subtitle {
@@ -30,20 +59,9 @@ table, td, th {
     font-weight: 400;
 }
 
-.title {
-	padding-top: 20px;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    background-color: rgba(0,0,0,0.8);
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    color: white;
-    margin-top: 10px;
-}
-
 .textzone {
     width: 660px;
-    height: 105px;
+    height: 120px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 12px;
