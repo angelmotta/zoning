@@ -172,7 +172,7 @@ def zonepure1(lpar_alias):
         fabric1 = "P_Fabric1"
         return zone_vios1_fab1,vsp_port_vios1_1,fabric1
     elif "PVIOSCHD01_" in lpar_alias:
-        vsp_port_vios1_1 = "VSP6547_EB"
+        vsp_port_vios1_1 = "VSP6456_EB"
         zone_vios1_fab1 = lpar_alias + "_" +vsp_port_vios1_1
         fabric1 = "P_Fabric1"
         return zone_vios1_fab1,vsp_port_vios1_1,fabric1
@@ -182,32 +182,32 @@ def zonepure1(lpar_alias):
         fabric1 = "P_Fabric1"
         return zone_vios1_fab1,vsp_port_vios1_1,fabric1
     elif "PVIOSCHD03_" in lpar_alias:
-        vsp_port_vios1_1 = "VSP6547_EB"
+        vsp_port_vios1_1 = "VSP6456_EB"
         zone_vios1_fab1 = lpar_alias + "_" +vsp_port_vios1_1
         fabric1 = "P_Fabric1"
         return zone_vios1_fab1,vsp_port_vios1_1,fabric1
     elif "PVIOSLMP01_" in lpar_alias:
-        vsp_port_vios1_1 = "VSP6547_EB"
+        vsp_port_vios1_1 = "VSP6547_XXXXX"
         zone_vios1_fab1 = lpar_alias + "_" +vsp_port_vios1_1
         fabric1 = "P_Fabric1"
         return zone_vios1_fab1,vsp_port_vios1_1,fabric1
     elif "PVIOSLMD01_" in lpar_alias:
-        vsp_port_vios1_1 = "VSP6547_EB"
+        vsp_port_vios1_1 = "VSP6547_XXXXX"
         zone_vios1_fab1 = lpar_alias + "_" +vsp_port_vios1_1
         fabric1 = "P_Fabric1"
         return zone_vios1_fab1,vsp_port_vios1_1,fabric1
     elif "PVIOSLMD03_" in lpar_alias:
-        vsp_port_vios1_1 = "VSP6547_EB"
+        vsp_port_vios1_1 = "VSP6547_XXXXX"
         zone_vios1_fab1 = lpar_alias + "_" +vsp_port_vios1_1
         fabric1 = "P_Fabric1"
         return zone_vios1_fab1,vsp_port_vios1_1,fabric1
     elif "PVIOSLMD05_" in lpar_alias:
-        vsp_port_vios1_1 = "VSP6547_EB"
+        vsp_port_vios1_1 = "VSP6547_XXXXX"
         zone_vios1_fab1 = lpar_alias + "_" +vsp_port_vios1_1
         fabric1 = "P_Fabric1"
         return zone_vios1_fab1,vsp_port_vios1_1,fabric1
     elif "PVIOSLMD05_" in lpar_alias:
-        vsp_port_vios1_1 = "VSP6547_EB"
+        vsp_port_vios1_1 = "VSP6547_XXXXX"
         zone_vios1_fab1 = lpar_alias + "_" +vsp_port_vios1_1
         fabric1 = "P_Fabric1"
         return zone_vios1_fab1,vsp_port_vios1_1,fabric1
@@ -220,7 +220,7 @@ def zonepure2(lpar_alias):
         fabric2 = "P_Fabric2"
         return zone_vios1_fab2,vsp_port_vios1_2,fabric2            
     elif "PVIOSCHD01_" in lpar_alias:
-        vsp_port_vios1_2 = "VSP6547_3D"
+        vsp_port_vios1_2 = "VSP6456_3D"
         zone_vios1_fab2 = lpar_alias + "_" +vsp_port_vios1_2
         fabric2 = "P_Fabric2"
         return zone_vios1_fab2,vsp_port_vios1_2,fabric2            
@@ -230,22 +230,22 @@ def zonepure2(lpar_alias):
         fabric2 = "P_Fabric2"
         return zone_vios1_fab2,vsp_port_vios1_2,fabric2            
     elif "PVIOSLMP01_" in lpar_alias:
-        vsp_port_vios1_2 = "VSP6547_3D"
+        vsp_port_vios1_2 = "VSP6547_XXXXX"
         zone_vios1_fab2 = lpar_alias + "_" +vsp_port_vios1_2
         fabric2 = "P_Fabric2"
         return zone_vios1_fab2,vsp_port_vios1_2,fabric2 
     elif "PVIOSLMD01_" in lpar_alias:
-        vsp_port_vios1_2 = "VSP6547_3D"
+        vsp_port_vios1_2 = "VSP6547_XXXXX"
         zone_vios1_fab2 = lpar_alias + "_" +vsp_port_vios1_2
         fabric2 = "P_Fabric2"
         return zone_vios1_fab2,vsp_port_vios1_2,fabric2 
     elif "PVIOSLMD03_" in lpar_alias:
-        vsp_port_vios1_2 = "VSP6547_3D"
+        vsp_port_vios1_2 = "VSP6547_XXXXX"
         zone_vios1_fab2 = lpar_alias + "_" +vsp_port_vios1_2
         fabric2 = "P_Fabric2"
         return zone_vios1_fab2,vsp_port_vios1_2,fabric2 
     elif "PVIOSLMD05_" in lpar_alias:
-        vsp_port_vios1_2 = "VSP6547_3D"
+        vsp_port_vios1_2 = "VSP6547_XXXXX"
         zone_vios1_fab2 = lpar_alias + "_" +vsp_port_vios1_2
         fabric2 = "P_Fabric2"
         return zone_vios1_fab2,vsp_port_vios1_2,fabric2 
